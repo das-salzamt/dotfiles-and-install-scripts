@@ -633,3 +633,18 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 chezmoi init --apply https://github.com/salzamt/chezmoi
 
 git config --global core.excludesfile ~/Documents/gitignore
+
+
+
+# Blender
+# download app image, move to `~/.local/share/applications/`, add desktop entry for rofi
+
+# Prusa Slicer (download app image)
+# download app image, move to `~/.local/share/applications/`, add desktop entry for rofi
+#  [Desktop Entry]
+#   Type=Application
+#   Name=Prusa Slicer
+#   Icon=/home/riccardo/.local/share/applications/prusa3d_linux_2_5_0/PrusaSlicer.png
+#   Exec=/home/riccardo/.local/share/applications/prusa3d_linux_2_5_0/PrusaSlicer-2.5.0+linux-x64-GTK3-202209060725.AppImage
+#   Catagories=Games
+#   Terminal=false
