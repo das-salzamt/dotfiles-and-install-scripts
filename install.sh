@@ -29,6 +29,9 @@ apt update && apt install vim i3 xinit
 # add i3 to xorg init
 exec i3 >> ~/.xinitrc
 
+# control i3wm with python
+pip3 install i3ipc
+
 # as user!
 echo "exec i3" | tee ~/.xinitrc
 
